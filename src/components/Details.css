@@ -1,0 +1,79 @@
+.details-page {
+  padding: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.details-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.details-header h1 {
+  margin: 0;
+  color: #c72c48;
+  font-weight: bold;
+}
+
+.btn-back {
+  background: #c72c48;
+  color: white;
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+
+.btn-back:hover {
+  background: #a8233a;
+}
+
+.details-message {
+  color: #555;
+  font-style: italic;
+}
+
+.details-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(160, 55, 62, 0.08);
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 20px;
+}
+
+.details-thumb img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.details-info p {
+  margin-bottom: 6px;
+}
+
+.details-section {
+  margin-top: 20px;
+}
+
+.details-section h3 {
+  margin-bottom: 8px;
+  color: #c72c48;
+}
+
+.details-section ul,
+.details-section ol {
+  padding-left: 20px;
+}
+
+.details-section li {
+  margin-bottom: 6px;
+}

@@ -1,0 +1,25 @@
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field span {
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #c72c48;
+}
+
+.field input,
+.field textarea,
+.field select {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
