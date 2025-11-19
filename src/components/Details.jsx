@@ -1,4 +1,3 @@
-// src/Details.jsx
 import { useLocation, useParams, Link } from "react-router-dom";
 
 export default function Details() {

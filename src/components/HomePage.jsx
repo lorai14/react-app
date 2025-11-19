@@ -118,15 +118,12 @@ export default function HomePage() {
     setShowModal(false);
     document.body.classList.remove("modal-open");
   };
-
-  // Function to open View Recipe Modal
   const openViewModal = (recipe) => {
     setSelectedRecipe(recipe);
     setShowViewModal(true);
     document.body.classList.add("modal-open");
   };
 
-  // Function to close View Recipe Modal
   const closeViewModal = () => {
     setShowViewModal(false);
     setSelectedRecipe(null);
